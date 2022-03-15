@@ -10,6 +10,7 @@ It's relatively accurate but table structure changes.
 Note:  This is v. 5.2.2 db schema structure - flavorfully based. 
 
 
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/93214545/158348153-983e7eac-4d53-4bee-ae02-c440604e543c.png">
 
                                __
    ____ ___  ____  _________  / /_  ___  __  _______
@@ -41,6 +42,7 @@ Note:  This is v. 5.2.2 db schema structure - flavorfully based.
 /_/                   /_/      /_/                   /_/
 
 
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/93214545/158348399-e0fc3c8d-7052-473c-a9c6-779cbf2f1a96.png">
 
        __                             __
   ____/ /_  ______ ___  ____     ____/ /_  ______ ___  ____
