@@ -11,7 +11,7 @@ Note:  This is v. 5.2.2 db schema structure - flavorfully based.
 
 
 <img width="392" alt="image" src="https://user-images.githubusercontent.com/93214545/158348153-983e7eac-4d53-4bee-ae02-c440604e543c.png">
-
+```
                                __
    ____ ___  ____  _________  / /_  ___  __  _______
   / __ `__ \/ __ \/ ___/ __ \/ __ \/ _ \/ / / / ___/
@@ -41,18 +41,18 @@ Note:  This is v. 5.2.2 db schema structure - flavorfully based.
  / .___/\__,_/_/ /_/ /_/ .___/  / .___/\__,_/_/ /_/ /_/ .___/
 /_/                   /_/      /_/                   /_/
 
-
+```
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/93214545/158348399-e0fc3c8d-7052-473c-a9c6-779cbf2f1a96.png">
-
+```
        __                             __
   ____/ /_  ______ ___  ____     ____/ /_  ______ ___  ____
  / __  / / / / __ `__ \/ __ \   / __  / / / / __ `__ \/ __ \
 / /_/ / /_/ / / / / / / /_/ /  / /_/ / /_/ / / / / / / /_/ /
 \__,_/\__,_/_/ /_/ /_/ .___/   \__,_/\__,_/_/ /_/ /_/ .___/
                     /_/                            /_/
-
- 
- 
+```
+ ==========================================================================================================
+``` 
  # morpheus_inventory.py
 
 from __future__ import (absolute_import, division, print_function)
@@ -377,3 +377,7 @@ class InventoryModule(BaseInventoryPlugin):
                 self.inventory.add_group(group['name'])
                 rawoutput = self._get_data_from_morpheus(searchtype=group['searchtype'])
                 self._filter_morpheus_output(rawoutput, group['name'], group['searchtype'], group['searchstring'])
+
+
+``` 
+Aaron Surina - Original author tryfan@github
